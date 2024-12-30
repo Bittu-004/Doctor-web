@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.consult-form{
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.consult-form label{
+    display: block;
+    margin-bottom:10px;
+    font-size: 18px;
+}
+
+.consult-form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.consult-form button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.consult-form button:hover{
+    background-color: #45a049;
+}
+
+#result{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+}
